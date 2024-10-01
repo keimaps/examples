@@ -3,7 +3,7 @@ import 'cesium/Build/Cesium/Widgets/widgets.css';
 
 // configure our tile server
 const offlineImagery = new Cesium.UrlTemplateImageryProvider({
-  url : 'http://localhost:8080/light/{z}/{x}/{y}.jpg',
+  url : 'http://localhost:8080/satellite/{z}/{x}/{y}.jpg',
   maximumLevel : 8
 });
 

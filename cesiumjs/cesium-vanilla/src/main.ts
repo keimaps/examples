@@ -1,6 +1,6 @@
 import * as Cesium from 'cesium';
 import 'cesium/Build/Cesium/Widgets/widgets.css';
-
+import './style.css';
 // configure our tile server
 const offlineImagery = new Cesium.UrlTemplateImageryProvider({
   url : 'http://localhost:8080/satellite/{z}/{x}/{y}.jpg',
